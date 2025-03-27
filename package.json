@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "@rails/actiontext": "^8.0.200",
-    "bootstrap": "^5.3.3",
     "trix": "^2.1.13"
   }
 }
