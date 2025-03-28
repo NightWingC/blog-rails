@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   root to: "home#index"
 
   get "bienvenida", to: "home#index"
+  get "perfil", to: "users#edit"
+  resources :users, only: [ :update ]
 
   # Simplificando 
   #   get "articles/new", to: "articles#new", as: :new_article
